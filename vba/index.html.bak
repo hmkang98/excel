@@ -1,0 +1,108 @@
+<STYLE TYPE=TEXT/CSS>
+B{background-color:dfdfdf;color:blue}
+A:link{color:blue; text-decoration:none}
+A:visited{color:blue; text-decoration:none}
+A:active{color:blue; text-decoration:none}
+A:hover{color:gold; text-decoration:none;font-weight:1000}
+[data-tooltip-text]:hover {
+	position: relative;
+}
+
+[data-tooltip-text]:hover:after {
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.8);
+
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(50, 50, 50, 0.4);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(50, 50, 50, 0.4);
+	box-shadow: 0px 0px 3px 1px rgba(50, 50, 50, 0.4);
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	color: #FFFFFF;
+	font-size: 12px;
+	content: attr(data-tooltip-text);
+
+  margin-bottom: 10px;
+	top: 130%;
+	left: 0;    
+	padding: 7px 12px;
+	position: absolute;
+	width: auto;
+	min-width: 50px;
+	max-width: 300px;
+	word-wrap: break-word;
+
+	z-index: 9999;
+}
+</STYLE>  
+<h1> 엑셀 강의 페이지 </h1>
+<h2> <a href=excel2.pdf><span data-tooltip-text="클릭하면 엑셀 교재가 다운됩니다."> 엑셀 교재 다운로드</span></a> </h2>
+<h2> <a href=vbapresen.pdf><span data-tooltip-text="클릭하면 엑셀 VBA 발표 자료가 다운됩니다."> 엑셀 VBA 발표자료 다운로드</span></a> </h2>
+<hr>
+<h2> DATA</H2>
+<ul>
+<li> <a href=chap1/macro_record.xlsm>macro_record.xlsm</a>
+<li> <a href=chap2/cellpattern.xlsm>cellpattern.xlsm</a>
+<li> <a href=chap2/Cells.xlsm>Cells.xlsm</a>
+<li> <a href=chap2/font.xlsm>font.xlsm</a>
+<li> <a href=chap2/msgbox.xlsm>msgbox.xlsm</a>
+<li> <a href=chap2/msgbox2.xlsm>msgbox2.xlsm</a>
+<li> <a href=chap2/oddeven.xlsm>oddeven.xlsm</a>
+<li> <a href=chap2/range.xlsm>range.xlsm</a>
+<li> <a href=chap2/range2.xlsm>range2.xlsm</a>
+<li> <a href=chap2/workbook.xlsm>workbook.xlsm</a>
+<li> <a href=chap2/worksheet.xlsm>worksheet.xlsm</a>
+<li> <a href=chap2/code2.txt>code2.txt</a>
+<li> <a href=chap3/copypaste.xlsm>copypaste.xlsm</a>
+<li> <a href=chap3/code3.txt>code3.txt</a>
+<li> <a href=chap4/eventprocedure.xlsm>eventprocedure.xlsm</a>
+<li> <a href=chap4/function.xlsm>function.xlsm</a>
+<li> <a href=chap4/param.xlsm>param.xlsm</a>
+<li> <a href=chap4/projectpasswd.xlsm>projectpasswd.xlsm</a>
+<li> <a href=chap4/property.xlsm>property.xlsm</a>
+<li> <a href=chap4/sub.xlsm>sub.xlsm</a>
+<li> <a href=chap4/sub2.xlsm>sub2.xlsm</a>
+<li> <a href=chap4/Person.cls>Person.cls</a>
+<li> <a href=chap/bmi.xlsx>bmi.xlsx</a>
+<li> <a href=chap/bmi.xlsm>bmi.xlsm</a>
+<li> <a href=chap/bmi2.xlsm>bmi2.xlsm</a>
+<li> <a href=chap/bmi3.xlsm>bmi3.xlsm</a>
+<li> <a href=chap/bmi4.xlsm>bmi4.xlsm</a>
+<li> <a href=chap/checkbox.xlsm>checkbox.xlsm</a>
+<li> <a href=chap/combobox.xlsm>combobox.xlsm</a>
+<li> <a href=chap/combobox2.xlsm>combobox2.xlsm</a>
+<li> <a href=chap/commandbutton.xlsm>commandbutton.xlsm</a>
+<li> <a href=chap/commandbutton2.xlsm>commandbutton2.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+<li> <a href=chap/.xlsm>.xlsm</a>
+</ul>
+<hr><p>
+<ADDRESS><FONT COLOR=BLUE>hmkang98@naver.com</FONT></ADDRESS>

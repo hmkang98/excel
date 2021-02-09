@@ -1,0 +1,187 @@
+Sub DemoBox()  
+  Dim myVar As String
+  myVar = "홍길동님"
+  MsgBox Prompt:="안녕하세요 " & myVar, _
+    Title:="인사", _
+    Buttons:=vbExclamation
+End Sub
+
+Sub 한줄에여러문넣기()
+   i=5: j=6: k=7
+   MsgBox i & j & k
+End Sub
+
+Sub FillArray()
+  Dim curExpense(364) As Currency
+  Dim intI As Integer
+  For intI = 0 to 364
+    curExpense(intI) = 20
+  Next
+End Sub
+
+Sub FillArrayMulti()
+  Dim intI As Integer, intJ As Integer
+  Dim sngMulti(1 To 5, 1 To 10) As Single
+  For intI = 1 To 5
+    For intJ = 1 To 10
+      sngMulti(intI, intJ) = intI * intJ
+      Cells(intI, intJ) = sngMulti(intI, intJ)
+    Next intJ
+  Next intI
+End Sub
+
+Sub IfTest()
+  score = 90
+  If score >= 60 Then MsgBox "당신은 합격입니다."
+End Sub
+
+Sub IfEndIfTest()
+  score = 90
+  If score >= 60 Then
+    MsgBox "당신 점수는" & score & "점입니다."
+    MsgBox "당신의 합격을 축하드립니다."
+  End If
+End Sub
+
+Sub IfElseTest()
+  score = InputBox("점수를 입력하세요", "점수", 59)
+  If score >= 60 Then
+    MsgBox "당신은 합격입니다."
+  Else
+    MsgBox "당신은 불합격입니다."
+  End If
+End Sub
+
+Sub IfElseIfTest()
+  score = InputBox("점수를 입력하세요", "점수", 89)
+  If score >= 90 Then
+    MsgBox "당신의 성적등급은 매우 잘함입니다."
+  ElseIf score >= 80 Then
+    MsgBox "당신은 성적등급은 잘함입니다."
+  ElseIf score >= 70 Then
+    MsgBox "당신은 성적등급은 보통입니다."
+  ElseIf score >= 60 Then
+    MsgBox "당신은 성적등급은 못함입니다."
+  Else
+    MsgBox "당신은 성적등급은 매우 못함입니다."
+  End If
+End Sub
+
+Sub SelectCaseTest()
+  score = InputBox("점수를 입력하세요", "점수", 89)
+  Select Case score
+    Case score >= 90
+      MsgBox "당신의 성적등급은 매우 잘함입니다."
+    Case score >= 80
+      MsgBox "당신은 성적등급은 잘함입니다."
+    Case score >= 70
+      MsgBox "당신은 성적등급은 보통입니다."
+    Case score >= 60
+      MsgBox "당신은 성적등급은 못함입니다."
+    Case Else
+      MsgBox "당신은 성적등급은 매우 못함입니다."
+  End Select
+End Sub
+
+Sub ChkFirstWhile()
+  counter = 0
+  myNum = 20
+  Do While myNum > 10
+    myNum = myNum - 1
+    counter = counter + 1
+  Loop
+  MsgBox "루프를 "& counter &"번 반복하였다."
+End Sub
+
+Sub ChkLastWhile()
+  counter = 0
+  myNum = 9
+  Do
+    myNum = myNum - 1
+    counter = counter + 1
+  Loop While myNum > 10
+  MsgBox "루프를 "& counter &"번 반복하였다."
+End Sub
+
+Sub ChkFirstUntil()
+  counter = 0
+  myNum = 20
+  Do Until myNum = 10
+    myNum = myNum - 1
+    counter = counter + 1
+  Loop
+  MsgBox "루프를 "& counter &"번 반복하였다."
+End Sub
+
+Sub ChkLastUntil()
+  counter = 0
+  myNum = 1
+  Do
+    myNum = myNum + 1
+    counter = counter + 1
+  Loop Until myNum = 10
+  MsgBox "루프를 "& counter &"번 반복하였다."
+
+Sub ExitExample()
+  counter = 0
+  myNum = 9
+  Do Until myNum = 10
+    myNum = myNum - 1
+    counter = counter + 1
+    If myNum < 10 Then Exit Do
+  Loop
+  MsgBox "루프를 "& counter &"번 반복하였다."
+End Sub
+
+Sub ForEachTest()
+  Dim rng As Range
+  Dim cel As Range
+  Set rng = Application.Range("Sheet1!B2:C3")
+  For Each cel In rng.Cells
+    MsgBox cel.value
+  Next cel
+End Sub
+
+Sub Speak()
+  Dim intro(3) As String
+  intro(1) = "안녕하세요"
+  intro(2) = InputBox("이름입력")
+  intro(3) = "님 반갑습니다."
+  For x = 1 To 3
+    Application.Speech.Speak intro(x)
+  Next x
+End Sub
+
+Sub TwosTotal()
+  For j = 2 To 10 Step 2
+    total = total + j
+  Next j
+  MsgBox "총 "& total &"이다."
+End Sub
+
+Sub NewTotal()
+  For myNum = 16 To 2 Step -2
+    total = total + myNum
+  Next myNum
+  MsgBox "총 "& total &"이다."
+End Sub
+
+Sub FormatRange()
+  With Worksheets("Sheet1").Range("A1:C10")
+    .Value = 30
+    .Font.Bold = True
+    .Interior.Color = RGB(255, 255, 0)
+  End With
+End Sub
+
+Sub MyInput()
+  With Workbooks("Book1").Worksheets("Sheet1").Cells(1, 1)
+    .Formula = "=SQRT(50)"
+    With .Font
+      .Name = "Arial"
+      .Bold = True
+      .Size = 8
+    End With
+  End With
+End Sub
+

@@ -1,0 +1,14 @@
+Sub 셀참조()
+    Worksheets("Sheet1").Activate
+    ActiveCell.Offset(2,2).Activate
+End Sub
+Sub Question()
+  myVar = MsgBox(Prompt:="나는 내 일을 좋아한다.", _
+    Title:="대답 상자", Buttons:="4")
+  MsgBox myVar
+End Sub
+Sub Question()
+  myVar = InputBox(Prompt:="숫자를 입력하세요.", _ 
+  Default:="100", Title:="홀수, 짝수 판별")
+  MsgBox myVar
+End Sub
