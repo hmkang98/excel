@@ -39,6 +39,7 @@ A:hover{color:gold; text-decoration:none;font-weight:1000}
 </STYLE>  
 <h1> 엑셀 강의 페이지 </h1>
 <h2> <a href=excel2.pdf><span data-tooltip-text="클릭하면 엑셀 교재가 다운됩니다."> 엑셀 교재 다운로드</span></a> </h2>
+<h2> <a href=vbapresen.pdf><span data-tooltip-text="클릭하면 엑셀 VBA 발표 자료가 다운됩니다."> 엑셀 VBA 발표자료 다운로드</span></a> </h2>
 <hr>
 <h2> DATA</H2>
 <ul>
@@ -59,6 +60,8 @@ A:hover{color:gold; text-decoration:none;font-weight:1000}
 <li> <a href=data/prime.txt>prime.txt</a>
 <li> <a href=data/prime.xlam>prime.xlam</a>
 <li> <a href=data/sm.xlsx>sm.xlsx</a>
+<li> <a href=data/trigonometric_graph.xlsx>trigonometric_graph.xlsx</a>
+<li> <a href=data/finalexam2data.xlsx>finalexam2data.xlsx</a>
 <li> <a href=data/examples.zip>examples.zip</a>
 <li> <a href=data/examples2.zip>examples2.zip</a>
 </ul>
