@@ -51,7 +51,9 @@ A:hover{color:gold; text-decoration:none;font-weight:1000}
 <li> <a href=data/confusion2.xlsx>confusion2.xlsx</a>
 <li> <a href=data/database.xlsx>database.xlsx</a>
 <li> <a href=data/decathlon.xlsx>decathlon.xlsx</a>
+<li> <a href=data/fruits.xlsx>fruits.xlsx</a>
 <li> <a href=data/function.xlsx>function.xlsx</a>
+<li> <a href=data/gender_smoke.txt>gender_smoke.txt</a>
 <li> <a href=data/german.data.txt>german.data.txt</a>
 <li> <a href=data/german.data.xlsx>german.data.xlsx</a>
 <li> <a href=data/images.zip>images.zip</a>
@@ -59,9 +61,13 @@ A:hover{color:gold; text-decoration:none;font-weight:1000}
 <li> <a href=data/pearson.xlsx>pearson.xlsx</a>
 <li> <a href=data/prime.txt>prime.txt</a>
 <li> <a href=data/prime.xlam>prime.xlam</a>
+<li> <a href=data/score.xlsx>score.xlsx</a>
 <li> <a href=data/sm.xlsx>sm.xlsx</a>
+<li> <a href=data/test.xlsx>test.xlsx</a>
+<li> <a href=data/test2.xlsx>test2.xlsx</a>
 <li> <a href=data/trigonometric_graph.xlsx>trigonometric_graph.xlsx</a>
-<li> <a href=data/finalexam2data.xlsx>finalexam2data.xlsx</a>
+<li> <a href=data/userfunction.bas>userfunction.bas</a>
+<!--li> <a href=data/finalexam2data.xlsx>finalexam2data.xlsx</a-->
 <li> <a href=data/examples.zip>examples.zip</a>
 <li> <a href=data/examples2.zip>examples2.zip</a>
 </ul>
