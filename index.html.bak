@@ -43,8 +43,10 @@ A:hover{color:gold; text-decoration:none;font-weight:1000}
 <hr-->
 <h2> DATA</H2>
 <ul>
+<li> <a href=data/Bass.xlsm>Bass.xlsm</a>
 <li> <a href=data/bmi.xlsx>bmi.xlsx</a>
 <li> <a href=data/bmi_chart.xlsx>bmi_chart.xlsx</a>
+<li> <a href=data/calendar.xlsm>calendar.xlsm</a>
 <li> <a href=data/cars.xlsx>cars.xlsx</a>
 <li> <a href=data/chartdata.xlsx>chartdata.xlsx</a>
 <li> <a href=data/chinalocal.xlsx>chinalocal.xlsx</a>
@@ -62,6 +64,7 @@ A:hover{color:gold; text-decoration:none;font-weight:1000}
 <li> <a href=data/prime.txt>prime.txt</a>
 <li> <a href=data/prime.xlam>prime.xlam</a>
 <li> <a href=data/score.xlsx>score.xlsx</a>
+<li> <a href=data/samplesize.xlsx>samplesize.xlsx</a>
 <li> <a href=data/sm.xlsx>sm.xlsx</a>
 <li> <a href=data/test.xlsx>test.xlsx</a>
 <li> <a href=data/test2.xlsx>test2.xlsx</a>
@@ -70,6 +73,13 @@ A:hover{color:gold; text-decoration:none;font-weight:1000}
 <!--li> <a href=data/finalexam2data.xlsx>finalexam2data.xlsx</a-->
 <li> <a href=data/examples.zip>examples.zip</a>
 <li> <a href=data/examples2.zip>examples2.zip</a>
+<li> <a href=data/급여.xlsx>급여.xlsx</a>
+<li> <a href=data/기본연산.xlsx>기본연산.xlsx</a>
+<li> <a href=data/날짜시간.xlsx>날짜시간.xlsx</a>
+<li> <a href=data/데이터분석.xlsx>데이터분석.xlsx</a>
+<li> <a href=data/의류자료.xlsx>의류자료.xlsx</a>
+<li> <a href=data/재무.xlsx>재무.xlsx</a>
+<li> <a href=data/참조.xlsx>참조.xlsx</a>
 </ul>
 <hr><p>
 <ADDRESS><FONT COLOR=BLUE>hmkang98@naver.com</FONT></ADDRESS>
